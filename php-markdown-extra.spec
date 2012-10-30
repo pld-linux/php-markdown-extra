@@ -12,8 +12,8 @@ URL:		http://michelf.ca/projects/php-markdown/extra/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.610
 BuildRequires:	unzip
-Requires:	php-common >= 4:%{php_min_version}
-Requires:	php-pcre
+Requires:	php(core) >= %{php_min_version}
+Requires:	php(pcre)
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 

@@ -1,5 +1,4 @@
 %define		php_min_version 5.0.0
-%include	/usr/lib/rpm/macros.php
 Summary:	PHP Markdown with extra features
 Name:		php-markdown-extra
 Version:	1.2.5
